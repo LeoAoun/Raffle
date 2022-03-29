@@ -1,0 +1,137 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    max-width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c{
+    display: flex;
+    margin-left: calc(50% - 50px);
+    
+}
+#credits{
+    
+    text-decoration: none;
+    color: white;
+    border-color: #190A05;
+    font-size: 14px;
+    padding: 2px 6px 2px 6px;
+    font-family: 'Open Sans', sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    background: #870000; 
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
+    text-shadow: 2px 2px 1px black;
+}
+#credits:hover{
+    font-size: 15px;
+}
+.container{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 4px 2px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    height: 300px;
+    min-width: 400px;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: darkcyan;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+
+    display: block;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 30px;
+    color: white;
+    text-shadow: 4px 2px 6px black;
+    border-style: solid;
+    border-color: darkseagreen;
+
+    
+}
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    width: 180px;
+}
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 8px;
+}
+.options{
+    display: flex;
+}
+
+img{
+    margin-top: 50px;
+    max-height: 500px;
+    min-width: 110px;
+  
+
+}
+.all{
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li:hover{
+    background-color: rgb(204, 204, 204, 0.5);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+li{
+   list-style: inside;
+   list-style-type: circle;
+   word-break: break-all;
+}
+.x{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.x:hover{
+    cursor: pointer;
+}
+li{
+    align-items: center;
+    display: flex;
+}

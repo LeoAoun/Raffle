@@ -1,38 +1,29 @@
 values = []
 
-function del(id, choice) {
-    let element = document.getElementById(id)
-    element.remove()
-    values = values.filter(value => value != choice)
-}
-
-function addvalue() {
-    
+function add() {
     let id = Date.now()
-    let choice = document.getElementById("inputT").value
+    let inputValue = document.getElementById("input").value
     let list = document.getElementById("list")
-    if(choice == ''){
 
-    }else{
-    values.push(choice)
-    list.innerHTML += `<li id="${id}">${choice}<button class="x" onclick="del('${id}','${choice}')">X</button></li>`
-  
+    if (inputValue) {
+        values.push(inputValue)
+        list.innerHTML += `<li id="${id}">${inputValue}<button class="x" onclick="del('${id}','${inputValue}')">X</button></li>`
+        document.getElementById("input").value = ""
     }
 }
 
-function clean(){
-    document.getElementById("inputT").value = ''
+function del(id, inputValue) {
+    let element = document.getElementById(id)
+    element.remove()
+    values = values.filter(value => value != inputValue)
 }
 
-function sortear(){
-    result = Math.floor(Math.random()*(values.length))
+function raffle() {
+    result = Math.floor(Math.random() * (values.length))
 
-    if(values[result] == undefined){
-        document.getElementById("result").innerHTML = `<div style="color: red">(Please, enter a value)</div>`
-    }else{
-
-   
-    document.getElementById("result").innerHTML = values[result]
-    
+    if (values[result] == undefined) {
+        document.getElementById("result").innerHTML = '(Please, enter a value)'
+    } else {
+        document.getElementById("result").innerHTML = values[result]
     }
 }

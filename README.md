@@ -6,7 +6,7 @@
 <p > <strong>View: </strong> <a href="https://leoaoun.github.io/Raffle-Sorteio/" target="_blank"> Click Here</p>
 <br>
 <div align="center">
-  
-![28 03 2022_22 06 09_REC](https://user-images.githubusercontent.com/100950151/160512150-13aa7b7b-e305-4de2-8da2-4ad3f2e92a90.gif)
-  
+
+![Raffle](https://user-images.githubusercontent.com/100950151/212572630-22222393-fd71-41ba-b7c7-2cac8d28bb58.gif)
+
 </div>
